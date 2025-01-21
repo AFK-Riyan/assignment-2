@@ -305,10 +305,6 @@ border-radius: 12px;
 background: rgb(17, 17, 17);
 margin: 60px;
 }
-
-
-
-
 /* responsive styles */
 
 @media screen and (max-width: 576px) {
@@ -373,9 +369,11 @@ margin: 60px;
 .colour{
     background: rgb(93, 88, 240);
 }
+.story-container{
+    margin-left: 0px;
+}
 .story-container-2{
     display: grid;
     grid-template-columns: repeat(2,170px);
-
 }
 }
