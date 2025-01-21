@@ -385,8 +385,12 @@ footer p {
     height: 30px;
     margin-right: 10px;
 }
+/* marque style */
 
 /* responsive styles */
+.marq{
+    background-color: darksalmon;
+}
 
 @media screen and (max-width: 576px) {
     header {
