@@ -120,16 +120,33 @@ header {
 }
 
 /* responsive styles */
+
 @media screen and (max-width: 576px) {
- .nav-links, .contact-btn{
+ header{
+    border: 1px solid orange;
+ }
+    .nav-links, .contact-btn{
     display: none;
   }
   .menu{
-    display: inline;
+    display: flex;
+    align-items: center;
   }
 #school{
     display: none;
 }
+
 .banner{
     flex-direction: column-reverse;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 0 18px;
+}
+
 }
